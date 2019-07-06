@@ -1,0 +1,118 @@
+body {
+    background-color: $bg-primary;
+}
+
+/* Reset border box */
+html {
+    box-sizing: border-box; }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit; }
+
+  /* Primary content container */
+  main {
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    max-width: $content-width; }
+  
+  /* Flex grid */
+  section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 0.5rem;  }
+  
+  /* Essentially the "columns" of the flex grid */
+  article,
+  aside, .column {
+    flex-basis: 100%; }
+  
+/* Desktop */
+@media screen and (min-width: 850px) {
+    aside {
+        flex: 2.5; }
+    
+    article {
+        flex: 7.5; }
+    
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap; }
+    
+    .column {
+        flex: 1; }
+    
+    ._10 {
+        flex: 1; }
+    
+    ._20 {
+        flex: 2; }
+    
+    ._25 {
+        flex: 2.5; }
+    
+    ._30 {
+        flex: 3; }
+    
+    ._40 {
+        flex: 4; }
+    
+    ._50 {
+        flex: 5; }
+    
+    ._60 {
+        flex: 6; }
+    
+    ._70 {
+        flex: 7; }
+    
+    ._75 {
+        flex: 7.5; }
+    
+    ._80 {
+        flex: 8; }
+    
+    ._90 {
+        flex: 9; }
+    
+    ._100 {
+        flex: 10; }
+}
+
+// Z-Indexing
+.z-0 {
+    z-index: 0;
+}
+.z-1 {
+    z-index: 1100;
+}
+.z-2 {
+    z-index: 1200;
+}
+.z-3 {
+    z-index: 1300;
+}
+.z-4 {
+    z-index: 1400;
+}
+.z-5 {
+    z-index: 1500;
+}
+.z-6 {
+    z-index: 1600;
+}
+.z-7 {
+    z-index: 1700;
+}
+.z-8 {
+    z-index: 1800;
+}
+.z-9 {
+    z-index: 1900;
+}
+.z-10 {
+    z-index: 2000;
+}

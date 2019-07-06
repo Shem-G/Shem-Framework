@@ -1,0 +1,52 @@
+header {
+    .full-width{
+        width: 100%;
+    }
+    .main-width{
+        width: $content-width;
+    }
+
+    .sticky {
+        position: fixed;
+    }
+    top: 0;
+    left: 0;
+    margin-bottom: 0.5rem; 
+    height: $nav-height;
+    background-color: $header-bg;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.logo {
+    position: absolute;
+    padding-left: 20px;
+    float: left;
+    line-height: $nav-height;
+    font-size: 1.5rem;
+    font-weight: bold;
+    a,
+    a:visited {
+        text-decoration: none; 
+    }
+}
+
+nav {
+    .links{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        flex: 1 1;
+        margin: 0;
+    a{
+        display: flex;
+        align-items: center;
+        font-size: .9rem;
+        font-weight: 500;
+        padding: 1rem .75rem;
+        margin: 0;
+        line-height: 1.5;
+        text-align: center;
+        text-decoration: none;
+    }
+    }
+}

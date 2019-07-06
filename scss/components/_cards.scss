@@ -1,0 +1,56 @@
+.card {
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    background-color: $bg-secondary;
+    border: 1px solid $border-colour;
+    border-radius: .25rem;
+}
+.card-header {
+    padding: 0.25rem 0 .5em .5rem;
+}
+.card-body {
+    margin: .5rem .5rem .5rem .5rem;
+}
+.card-footer {
+    padding-top: .5rem;
+    margin: .5rem .5rem .5rem .5rem;
+}
+.card-feature-img {
+    width: 100%;
+}
+.card-feature-img-top {
+    width: 100%;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+.card-feature-img-bottom {
+    width: 100%;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+// Card deck
+.card-deck {
+    display: flex;
+    flex-direction: column;
+
+    .card {
+        margin-bottom: .5rem;
+    }
+   
+    @media screen and (min-width: 800px) {
+        flex-flow: row wrap;
+        margin-left: -.5rem;
+        margin-right: -.5rem;
+
+        .card {
+            display: flex;
+            // Flexbugs #4: https://github.com/philipwalton/flexbugs#flexbug-4
+            flex: 1 0 0%;
+            flex-direction: column;
+            margin-right: .5rem;
+            margin-bottom: 0; // Override the default
+            margin-left: .5rem;
+          }
+
+    }
+}

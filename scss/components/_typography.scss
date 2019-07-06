@@ -1,0 +1,38 @@
+body {
+    font-family: $font-stack;
+}
+
+.text-light {
+    color: #9aa2b3;
+    a {
+        color: #969eaf;
+    }
+}
+
+.article-header {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+    padding-top: .5rem;
+    
+}
+
+.text-header {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+}
+
+.text-muted {
+    color: $bg-primary;
+}
+
+.underlined {
+    border-bottom: $border-under;
+}
+
+.overlined {
+    border-top: $border-under;
+}
