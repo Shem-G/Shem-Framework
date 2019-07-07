@@ -9,6 +9,13 @@ body {
     }
 }
 
+.text-white {
+    color: #ffffff;
+    a {
+        color: #ffffff;
+    }
+}
+
 .article-header {
     font-size: 1.5rem;
     font-style: italic;
@@ -19,10 +26,8 @@ body {
 }
 
 .text-header {
-    font-size: 1.5rem;
     font-style: italic;
     font-weight: 100;
-    margin: 0;
 }
 
 .text-muted {
