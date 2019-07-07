@@ -1,10 +1,11 @@
-ul {
-    padding: 0 0;
+.list-basic {
+    padding: 0;
+    
+    li {
+        list-style-type: none;
+        margin: 1rem 0;
+        padding: .5rem 0;
+        border-bottom: $border-under;
+    }
 }
 
-li {
-    list-style-type: none;
-    margin: 1rem 0;
-    padding: .5rem 0;
-    border-bottom: $border-under;
-}

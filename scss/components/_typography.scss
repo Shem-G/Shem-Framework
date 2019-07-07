@@ -1,5 +1,14 @@
 body {
     font-family: $font-stack;
+    font-size: .75rem;
+
+    @media screen and (min-width: 600px) {
+    font-size: 1rem;
+    }
+}
+
+h1 {
+    margin: 0;
 }
 
 .text-light {
@@ -32,6 +41,14 @@ body {
 
 .text-muted {
     color: $bg-primary;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .underlined {
